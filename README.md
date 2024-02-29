@@ -1,16 +1,6 @@
-### Building and running your application
-
-When you're ready, start your application by running:
-`docker compose up --build`.
-
-Add frontend/.env for backend. Example:
-`VITE_API_BACKEND=http://localhost:5001`
-
-
-![Transcription Google API Popup Vue Module](https://ss-web.ru/assets/images/untitled-min.png)
-
 ## TZ vue runtime
 
+![Transcription Google API Popup Vue Module](https://ss-web.ru/assets/images/untitled-min.png)
 
 This project demonstrates a dynamic Vue component loading system with an admin page for live editing and a client page displaying the component's data fetched from a Node.js API.
 
