@@ -1,0 +1,16 @@
+layout: |2
+
+    <img src="https://149455152.v2.pressablecdn.com/wp-content/uploads/2015/11/Kids-Programming-1024x512.jpg" />
+    <h3>Card title <b>Name</b></h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint eius corrupti non laudantium qui, possimus explicabo, iste reiciendis dolorum rem quibusdam commodi alias nobis eos a eum fugiat saepe?</p>
+    <button class="btn">Buttons</button>
+styles: |
+  b{color:blue; background: green}
+  img{
+    max-width: 100%;
+  }
+  .btn {
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 8px;
+  }

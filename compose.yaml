@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      NODE_ENV: .env
+    ports:
+      - 5001:5001
+
+  frontend:
+    build:
+      context: ./frontend
+    environment:
+      NODE_ENV: .env
+    ports:
+      - 4173:4173
